@@ -709,3 +709,71 @@ main .recent-orders a{
     }
 
 }
+  /* Extra small devices (phones) */
+@media (max-width: 480px) {
+    /* Styles for phones */
+    .content {
+        font-size: 14px;
+    }
+}
+
+/* Small devices (tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Styles for tablets */
+    .content {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Styles for desktops */
+    .content {
+        font-size: 18px;
+    }
+}
+
+/* Large devices (large desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* Styles for large desktops */
+    .content {
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (4k monitors) */
+@media (min-width: 1201px) {
+    /* Styles for extra large devices */
+    .content {
+        font-size: 22px;
+    }
+}
+@media (min-width: 1366px) and (max-width: 1440px) {
+    /* Styles for Macbook Air size */
+    .your-element {
+        width: 80%; /* Adjust width as needed */
+    }
+  }
+  /* Original style (fixed width) */
+.right-side-element {
+    width: 300px; /* Change this to a percentage or em/rem unit */
+}
+
+/* Responsive fix using media query */
+@media (max-width: 1440px) { /* Adjust max-width as needed */
+  .right-side-element {
+      width: 80%; /* Adjust width for Macbook Air size */
+  }
+}
+
+/* Original style (fixed width) */
+.right-side-element {
+    width: 300px; /* Change this to a percentage or em/rem unit */
+}
+
+/* Responsive fix using media query */
+@media (max-width: 1440px) { /* Adjust max-width as needed */
+  .right-side-element {
+      width: 80%; /* Adjust width for Macbook Air size */
+  }
+}
